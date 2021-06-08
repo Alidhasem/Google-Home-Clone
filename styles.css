@@ -1,0 +1,59 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+html{
+    font-size: 62.5%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.main-nav{
+    width: 100vw;
+    height: 48px;
+    font-size: 1.3rem;
+    padding: 4px;
+    display: flex;
+    justify-content: flex-end;
+}
+.right-nav{
+    width: 254px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+.right-nav .right-nav-links{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 15px;
+}
+.right-nav .right-nav-images{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.right-nav-links a{
+    text-decoration: none;
+    color: black;
+}
+.right-nav-images a{
+    text-decoration: none;
+}
+.right-nav-links li{
+    padding-left: 15px;
+}
+.right-nav-images .apps-icon{
+    padding: 12px;
+    display: flex;
+    align-items: center;
+}
+.right-nav-images img{
+    border-radius: 15px;
+}
+.right-nav-images .account-image{
+    padding: 8px;
+    display: flex;
+    align-items: center;
+}
