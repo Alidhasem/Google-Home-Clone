@@ -54,3 +54,16 @@ a{
     display: flex;
     align-items: center;
 }
+.main-logo{
+    width: 100vw;
+    height: 143px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.search-input{
+    width: 100vw;
+}
+.search-input .main-search-input{
+    display: block;
+}
