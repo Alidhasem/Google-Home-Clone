@@ -54,16 +54,41 @@ a{
     display: flex;
     align-items: center;
 }
-.main-logo{
+main{
+    text-align: center;
+}
+main .main__logo{
     width: 100vw;
-    height: 143px;
+    height: 200px;
     display: flex;
     justify-content: center;
     align-items: flex-end;
 }
-.search-input{
-    width: 100vw;
+main .main__searchInputContainer{
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
 }
-.search-input .main-search-input{
-    display: block;
+main .main__searchInput{
+    width: 584px;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #e3e5e8;
+    border-radius: 100px;  
+}
+.main__searchInput input{
+    width: 510px;
+    height: 34px;
+    border: none;
+    outline: none;
+}
+.main__searchInput .google-micro,.google-searchIcon{
+    width: 40px;
+    height: 44px;
+    padding: 0px 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
