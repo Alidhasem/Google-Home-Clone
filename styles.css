@@ -54,3 +54,73 @@ a{
     display: flex;
     align-items: center;
 }
+main{
+    text-align: center;
+}
+main .main__logo{
+    width: 100vw;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+main .main__searchInputContainer{
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+main .main__searchInput{
+    width: 584px;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #e3e5e8;
+    border-radius: 100px;  
+}
+.main__searchInput input{
+    width: 510px;
+    height: 34px;
+    border: none;
+    outline: none;
+}
+.main__searchInput .google-micro,.google-searchIcon{
+    width: 40px;
+    height: 44px;
+    padding: 0px 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+main .main__searchInput:hover{
+    box-shadow: 0 1px 6px 0 #20212447;
+    border-color: #dfe1e500;
+}
+main .main__searchButtons{
+    width: 584px;
+    height: 88px;
+    margin: 0 auto;
+    padding-top: 18px;
+}
+.main__searchButtons button{
+    box-sizing: initial;
+    width: 109px;
+    height: 34px;
+    padding: 0 16px;
+    margin: 4px 11px;
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    font-size: 1.4rem;
+}
+.main__searchButtons button:hover{
+    box-shadow: 0 1px 1px 0 rgb(0 0 0 / 10%);
+    border-color: #dadce0;
+    cursor: pointer;
+}
+main .language__indicator{
+    font-size: 1.3rem;
+    color: #222222;
+}
+.language__indicator a{
+    color: #1a0dab;
+} 
