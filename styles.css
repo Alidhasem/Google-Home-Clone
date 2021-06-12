@@ -118,9 +118,51 @@ main .main__searchButtons{
     cursor: pointer;
 }
 main .language__indicator{
+    width: 100vw;
+    height: 245px;
     font-size: 1.3rem;
     color: #222222;
 }
 .language__indicator a{
     color: #1a0dab;
 } 
+footer{
+    width: 100vw;
+    height: 98px;
+    font-size: 1.5rem;
+    background-color: rgb(242 242 242);
+    color: rgba(0,0,0,.54);
+    position: absolute;
+    bottom: 0;
+}
+footer .footer__countryInfo {
+    padding: 15px 30px;
+}
+footer .footer__nav {
+    width: 100vw;
+    height: 49px;
+    padding: 0px 20px;
+    border: 1px solid #dadce0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+footer .footer__nav--leftList{
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+footer .footer__nav--rightList{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.footer__nav--leftList li, .footer__nav--rightList li{
+    padding: 15px 15px;
+}
+.footer__nav a{
+    color: rgba(0,0,0,.54);
+}
+.footer__nav a:hover{
+    text-decoration: underline;
+}
